@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    --secundary-color: #2A7AE4;
+    --primary-color: #EDEDED;
+    --color-H1: #181818;
+    --text-color-menu:rgb(241, 241, 241);
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--azul-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* CABEÇALHO */
+
+.cabecalho__container {
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 80px;
+    width: 1136px;
+    padding: 0 25px;
+}
+.corpo_pagina{
+    background-color: rgb(247, 247, 247);
+    width: 1136px;
+    position: absolute;
+    left: 50%;
+    margin-left: -568px;
+}
+.corpo_pagina{
+    width: 1136px;
+    position: absolute;
+    left: 50%;
+    margin-left: -568px;
+}
+.NavBar_topo{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    height: 20%;
+}
+
+#required, .required{
+	display: none;
+	font-size: 0.6rem;
+}

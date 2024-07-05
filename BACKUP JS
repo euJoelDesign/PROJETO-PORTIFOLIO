@@ -1,0 +1,34 @@
+const nameInput = document.querySelector("#nome");
+const emailInput = document.querySelector("#email");
+const assuntoInput = document.querySelector("#assunto");
+const submitButton = document.querySelector("#enviar");
+const erroMessage = document.querySelector(".msg")
+const okMessage = document.querySelector(".msgOk")
+const textoMessage = document.querySelector("#textareaMensagem")
+
+
+
+submitButton.addEventListener("click", (e) =>{
+    e.preventDefault();
+
+    const nameValue = nameInput.value;
+    const emailValue = emailInput.value;
+    const assuntolValue = assuntoInput.value;
+    const messagelValue = textoMessage.value;
+
+    if(nameValue === "" || emailValue === "" || assuntolValue === "" || messagelValue === "" ){
+        erroMessage.textContent = "por favor, preencha os campos!";
+        erroMessage.classList = "error";
+        return;
+    }else{
+            nameInput.value ="";
+            emailInput.value = "";
+            assuntoInput.value = "";
+            textoMessage.value = ""
+
+            okMessage.textContent = "Recebemos sua mensagem, Obrigado!";
+            okMessage.classList = "sucesso";  
+            return;
+    }
+
+})

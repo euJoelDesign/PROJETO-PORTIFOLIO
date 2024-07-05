@@ -1,0 +1,77 @@
+.error{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+.sucesso{
+    background-color: rgb(4, 150, 23);
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+}
+.form-group a{
+
+    position: absolute;
+    visibility: hidden;
+
+
+}
+
+.form-group p{
+
+    position: absolute;
+    visibility: hidden;
+
+
+}
+#form{
+
+ background-color: rgb(228, 228, 228);
+ width: 80%;
+ height: 90%;
+ padding: 10%;
+ color: rgb(97, 97, 97);
+
+}
+.form-group {
+ margin: 2%;
+ border-color: rgb(2, 172, 25);
+}
+
+.form-group.error input{
+    border-color: red;
+ 
+}
+
+.form-group.error a{
+    border-color: red;
+    visibility: visible;
+    color: aliceblue;
+}
+.formulario_contato{
+    width: 90%;
+
+}
+.contato{
+    margin: 4% 0 0 0;
+    background-color:rgb(0, 34, 85);
+    color: white;
+    padding:4% 0 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#textoMessage{
+    height: 100%;
+}
+
+.btn{
+ 
+    width: 30%;
+}
